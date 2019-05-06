@@ -1,0 +1,27 @@
+/*! FOUR 4to6 CSS */
+.dl_style{
+margin-bottom: 1.5em;
+clear: both;
+}
+.dt_a_style{
+text-decoration: none !important;
+font-weight: bold;
+color: #6495ed;
+}
+.dt_style{
+display: block;
+}
+.dt_thumbnail{
+clear:left;
+float:left;
+margin-right:10px;
+margin-bottom:10px;
+display: inline;
+}
+.dd_style{
+overflow: hidden;
+font-size: 0.8em;
+border-bottom:1px dotted #999999;
+padding:1px 0 8px 0;
+display: block;
+}
