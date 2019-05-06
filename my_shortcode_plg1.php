@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: My Shortcode Plugin Ver.1.0
-Plugin URI: https://neco913.kirara.st/post-3382/
+Plugin URI: https://github.com/four4to6/4to6-Shortcode-Plugin
 Description: このShortcodeで新着記事を表示できます。
 Version: 1.0
 Author: FOUR 4to6
