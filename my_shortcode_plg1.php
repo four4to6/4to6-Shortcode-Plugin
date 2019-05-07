@@ -89,8 +89,12 @@ add_action( 'wp_dashboard_setup', 'example_add_dashboard_widgets' );
  */
 function example_dashboard_widget_function() {
 	// 表示したいものを出力する。
-	echo "<div>【 新着記事表示 】</div>";
-	echo "[numberpospin page_att='' order_att='' orderby_att='']";
+	?>
+<div class="my_admin_style">
+<span>【 新着記事表示 】</span>
+<pre class="my_admin_code"><code>[numberpospin page_att='' order_att='' orderby_att='']</code></pre>
+</div>
+        <?php
 }
 
 /** 管理メニューの追加 ステップ2 */
