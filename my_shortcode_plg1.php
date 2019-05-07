@@ -50,7 +50,7 @@ add_action( 'wp_enqueue_scripts', 'short_php_scripts' );
 /**
  ** 管理画面に特定のスタイルを読み込む
  **/
-function hoge_load_custom_wp_admin_style($hook) {
+function foo_load_custom_wp_admin_style($hook) {
         // Load only on ?page=mypluginname
         if($hook != 'settings_page_my-unique-identifier') {
                 return;
@@ -59,7 +59,17 @@ function hoge_load_custom_wp_admin_style($hook) {
 	array(),
 	filemtime( plugin_dir_path( __FILE__ ) . 'css/my_admin_style.css' ) );
 }
-add_action( 'admin_enqueue_scripts', 'hoge_load_custom_wp_admin_style' );
+add_action( 'admin_enqueue_scripts', 'foo_load_custom_wp_admin_style' );
+
+function bar_load_custom_wp_admin_style($hook) {
+    if ( 'index.php' != $hook ) {
+                return;
+        }
+        wp_enqueue_style( 'short_php_style', plugins_url('css/my_admin_style.css', __FILE__ ),
+	array(),
+	filemtime( plugin_dir_path( __FILE__ ) . 'css/my_admin_style.css' ) );
+}
+add_action( 'admin_enqueue_scripts', 'bar_load_custom_wp_admin_style' );
 
 /**
  * ダッシュボードにウィジェットを追加する。
