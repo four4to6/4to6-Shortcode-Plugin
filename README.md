@@ -77,7 +77,7 @@ Customized it : [FOUR 4to6](https://github.com/four4to6)
   - [http://wpdocs.osdn.jp/関数リファレンス/add_menu_page](http://wpdocs.osdn.jp/関数リファレンス/add_menu_page)
 - **関数リファレンス/wp enqueue style**
   - [https://wpdocs.osdn.jp/関数リファレンス/wp_enqueue_style](https://wpdocs.osdn.jp/関数リファレンス/wp_enqueue_style)
-  - [http://elementa.net/technopolis/wordpress/post-869/](http://elementa.net/technopolis/wordpress/post-869/)
+  - [https://codex.wordpress.org/Plugin_API/Action_Reference/admin_enqueue_scripts(https://codex.wordpress.org/Plugin_API/Action_Reference/admin_enqueue_scripts)
 - **関数リファレンス/add shortcode**
   - [http://wpdocs.osdn.jp/関数リファレンス/add_shortcode](http://wpdocs.osdn.jp/関数リファレンス/add_shortcode)
 - **関数リファレンス/shortcode atts**
