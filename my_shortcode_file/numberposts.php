@@ -1,4 +1,6 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly;
+
 function my_shortcode_pin( $atts ) {
     $att = shortcode_atts( array(
         'page_att' => '5',
