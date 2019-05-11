@@ -24,7 +24,7 @@ foreach ($postslist as $post) : setup_postdata($post);
           | <a class="dt_a_style" href="<?php the_permalink($post);?>">
             <?php echo wp_trim_words( get_the_title($post), 20, '...' ); ?></a>
     </dt>
-    <dd class="dd_style"><?php echo mb_substr(get_the_excerpt(), 17, 35); ?>
+    <dd class="dd_style"><?php echo mb_substr(get_the_excerpt($post), 16, 24); ?>
         …<a href="<?php the_permalink($post);?>">続きを読む</a>
     </dd>
 </dl>
